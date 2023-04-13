@@ -2,7 +2,7 @@ const { buildSchema } = require('graphql');
 
 module.exports = buildSchema(`
     type IsVerified {
-        is_verified: String!
+        is_verified: Boolean!
     }
 
     input SignupInput {
